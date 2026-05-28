@@ -1,0 +1,55 @@
+Province,Place,Hijacking_Rate,Crime_Level,Crime_Level_Num
+Gauteng,Sandton,1.2,Low,1.0
+Gauteng,Midrand,2.5,Medium,1.3
+Gauteng,Ivory Park,4.5,High,1.5
+Gauteng,Roodepoort,3.8,High,1.5
+Gauteng,Bramley,2.0,Medium,1.3
+Gauteng,Honeydew,1.5,Low,1.0
+Gauteng,Soweto,4.8,High,1.5
+Gauteng,Sandringham,3.2,Medium,1.3
+Gauteng,Akasia,2.8,Medium,1.3
+Gauteng,Midstream,1.0,Low,1.0
+KwaZulu-Natal,Durban North,1.3,Low,1.0
+KwaZulu-Natal,Umlazi,4.2,High,1.5
+KwaZulu-Natal,Inanda,3.5,Medium,1.3
+KwaZulu-Natal,Mariannhill,2.9,Medium,1.3
+KwaZulu-Natal,Mankweng,4.0,High,1.5
+KwaZulu-Natal,Berea,1.5,Low,1.0
+KwaZulu-Natal,Plessislaer,2.8,Medium,1.3
+KwaZulu-Natal,Mountain Rise,3.8,High,1.5
+KwaZulu-Natal,Esikhaleni,4.5,High,1.5
+KwaZulu-Natal,Calcutta,1.0,Low,1.0
+Western Cape,Cape Town CBD,2.5,Medium,1.3
+Western Cape,Khayelitsha,4.8,High,1.5
+Western Cape,Rondebosch,1.2,Low,1.0
+Western Cape,Nyanga,4.0,High,1.5
+Western Cape,Gugulethu,3.8,High,1.5
+Western Cape,Sea Point,1.5,Low,1.0
+Western Cape,Philippi East,3.2,Medium,1.3
+Western Cape,Delft,3.5,Medium,1.3
+Western Cape,Mfuleni,4.2,High,1.5
+Western Cape,Harare,4.0,High,1.5
+Eastern Cape,Port Elizabeth,3.0,Medium,1.3
+Eastern Cape,Cambridge,3.5,Medium,1.3
+Eastern Cape,Kwazakele,4.2,High,1.5
+Eastern Cape,New Brighton,3.8,High,1.5
+Eastern Cape,Summerstrand,1.5,Low,1.0
+Eastern Cape,North End,2.0,Medium,1.3
+Eastern Cape,Walmer,1.0,Low,1.0
+Eastern Cape,Central,2.5,Medium,1.3
+Eastern Cape,Mount Road,3.5,Medium,1.3
+Eastern Cape,Stanford Terrace,1.2,Low,1.0
+Mpumalanga,Witbank,3.5,Medium,1.3
+Mpumalanga,Secunda,2.8,Medium,1.3
+Mpumalanga,Vosman,4.0,High,1.5
+Mpumalanga,Bethal,1.0,Low,1.0
+Mpumalanga,Middleburg,1.5,Low,1.0
+Limpopo,Polokwane,2.5,Medium,1.3
+Limpopo,Mankweng,4.2,High,1.5
+North West,Mmabatho,4.0,High,1.5
+North West,Rustenburg,2.0,Medium,1.3
+North West,Potchefstroom,1.2,Low,1.0
+Northern Cape,Kimberley,3.5,Medium,1.3
+Northern Cape,Upington,1.0,Low,1.0
+Free State,Bloemfontein,3.0,Medium,1.3
+Free State,Welkom,2.0,Medium,1.3

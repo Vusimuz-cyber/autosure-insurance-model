@@ -290,9 +290,16 @@ def get_quote(req: QuoteRequest):
         raw_coverage= _first_not_none(req.coverage_type,  req.coverage,default="Comprehensive")
 
         # Normalise to exact training-data labels
-        usage    = _normalise_usage(raw_usage)
-        parking  = _normalise_parking(raw_parking)
-        coverage = raw_coverage  # Flutter already sends 'Comprehensive' / 'Smart' / 'Third-Party'
+        usage   = _normalise_usage(raw_usage)
+        parking = _normalise_parking(raw_parking)
+
+        # FIX: Flutter sends coverage_type='all' to request all three plan prices.
+        # 'all' is not a training-data value, so the OneHotEncoder would zero it
+        # out and skew the model's base prediction. Clamp to 'Comprehensive' —
+        # the model only uses this for its internal base prediction; the three
+        # output tiers are always derived by calculate_realistic_premiums anyway.
+        _valid_coverages = {'Comprehensive', 'Smart', 'Third-Party'}
+        coverage = raw_coverage if raw_coverage in _valid_coverages else 'Comprehensive'
 
         # Fuzzy-match car and area from reference CSVs
         car_input  = req.car_input  or f"{brand} {model}".lower()
